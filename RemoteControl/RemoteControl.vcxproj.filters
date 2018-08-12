@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Devices">
+      <UniqueIdentifier>{8e12d555-4d3b-4622-a3c2-b993d0ed9c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{da8e186b-7f74-4cf1-bd27-65ab28a242c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\CeilingFan">
+      <UniqueIdentifier>{4800f460-9745-490d-8a68-ab058f97098b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\GarageDoor">
+      <UniqueIdentifier>{09ab8dd1-b048-4514-992a-2d7efbbfb50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Light">
+      <UniqueIdentifier>{23262254-43c8-4f0c-b328-b152ac2a895d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Stereo">
+      <UniqueIdentifier>{d0a31901-e48e-4fbd-962f-f0f49832865a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\MacroCommand">
+      <UniqueIdentifier>{eee4f541-e677-4201-b978-03026c32c415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\TV">
+      <UniqueIdentifier>{7bd2aa2c-2c6c-4024-a0ff-4aed963ea136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Hottub">
+      <UniqueIdentifier>{46b54eff-536f-4289-ade2-fc2bd5863347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Devices\Light.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Devices\GarageDoor.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\NoCommand.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Devices\Stereo.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Devices\CeilingFan.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\CeilingFan\CeilingFanOffCommand.cpp">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\GarageDoor\GarageDoorDownCommand.cpp">
+      <Filter>Source Files\Commands\GarageDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\GarageDoor\GarageDoorUpCommand.cpp">
+      <Filter>Source Files\Commands\GarageDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Light\LightOffCommand.cpp">
+      <Filter>Source Files\Commands\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Light\LightOnCommand.cpp">
+      <Filter>Source Files\Commands\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Stereo\StereoOffCommand.cpp">
+      <Filter>Source Files\Commands\Stereo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Stereo\StereoOnWithCDCommand.cpp">
+      <Filter>Source Files\Commands\Stereo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\CeilingFan\CeilingFanLowCommand.cpp">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\CeilingFan\CeilingFanMediumCommand.cpp">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\CeilingFan\CeilingFanHighCommand.cpp">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\MacroCommand\MacroCommand.cpp">
+      <Filter>Source Files\Commands\MacroCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Devices\TV.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\TV\TVOnCommand.cpp">
+      <Filter>Source Files\Commands\TV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\TV\TVOffCommand.cpp">
+      <Filter>Source Files\Commands\TV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Devices\Hottub.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Hottub\HottubOnCommand.cpp">
+      <Filter>Source Files\Commands\Hottub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Hottub\HottubOffCommand.cpp">
+      <Filter>Source Files\Commands\Hottub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Commands\Stereo\StereoOnCommand.cpp">
+      <Filter>Source Files\Commands\Stereo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Devices\Light.h">
+      <Filter>Source Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Devices\GarageDoor.h">
+      <Filter>Source Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteControl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\ICommand.h">
+      <Filter>Source Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\NoCommand.h">
+      <Filter>Source Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Devices\Stereo.h">
+      <Filter>Source Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Devices\CeilingFan.h">
+      <Filter>Source Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\CeilingFan\CeilingFanOffCommand.h">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\GarageDoor\GarageDoorDownCommand.h">
+      <Filter>Source Files\Commands\GarageDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\GarageDoor\GarageDoorUpCommand.h">
+      <Filter>Source Files\Commands\GarageDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Light\LightOffCommand.h">
+      <Filter>Source Files\Commands\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Light\LightOnCommand.h">
+      <Filter>Source Files\Commands\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Stereo\StereoOffCommand.h">
+      <Filter>Source Files\Commands\Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Stereo\StereoOnWithCDCommand.h">
+      <Filter>Source Files\Commands\Stereo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\CeilingFan\CeilingFanLowCommand.h">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\CeilingFan\CeilingFanMediumCommand.h">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\CeilingFan\CeilingFanHighCommand.h">
+      <Filter>Source Files\Commands\CeilingFan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\MacroCommand\MacroCommand.h">
+      <Filter>Source Files\Commands\MacroCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Devices\TV.h">
+      <Filter>Source Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\TV\TVOnCommand.h">
+      <Filter>Source Files\Commands\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\TV\TVOffCommand.h">
+      <Filter>Source Files\Commands\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Devices\Hottub.h">
+      <Filter>Source Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Hottub\HottubOnCommand.h">
+      <Filter>Source Files\Commands\Hottub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Hottub\HottubOffCommand.h">
+      <Filter>Source Files\Commands\Hottub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Commands\Stereo\StereoOnCommand.h">
+      <Filter>Source Files\Commands\Stereo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
